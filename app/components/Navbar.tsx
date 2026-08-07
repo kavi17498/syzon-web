@@ -8,8 +8,9 @@ export default function Navbar() {
   const [activeTab, setActiveTab] = useState("Home");
 
   const navItems = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "#home" },
     { name: "Our Rates", href: "#rates" },
+    { name: "Our Vehicles", href: "#vehicles" },
     { name: "About Us", href: "#about" },
     { name: "Contact Us", href: "#contact" },
     { name: "Book Now", href: "#booking-form" },
@@ -24,25 +25,43 @@ export default function Navbar() {
             {navItems.map((item) => {
               const isActive = activeTab === item.name;
               return (
-                <Link
+                <a
                   key={item.name}
                   href={item.href}
                   onClick={() => setActiveTab(item.name)}
-                  className={`flex items-center px-6 h-full font-bold text-sm sm:text-base transition-colors duration-150 ${
+                  className={`flex items-center px-5 lg:px-6 h-full font-bold text-sm sm:text-base transition-colors duration-150 whitespace-nowrap ${
                     isActive
                       ? "bg-[#9c7502] text-white shadow-inner"
                       : "text-white hover:bg-[#c4980f]"
                   }`}
                 >
                   {item.name}
-                </Link>
+                </a>
               );
             })}
           </div>
 
-          {/* Mobile menu title & button */}
+          {/* Quick Phone Call on Navbar right side */}
+          <div className="hidden lg:flex items-center gap-2 text-white text-sm font-bold bg-[#b88c0b] px-3.5 py-1.5 rounded-lg shadow-sm">
+            <svg className="w-4 h-4 fill-current text-amber-200" viewBox="0 0 24 24">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.2 2.2z" />
+            </svg>
+            <a href="tel:+94757890053" className="hover:underline">
+              +94 75 789 0053
+            </a>
+          </div>
+
+          {/* Mobile menu title & toggle button */}
           <div className="flex md:hidden items-center justify-between w-full">
-            <span className="font-bold text-white text-lg">Menu</span>
+            <a
+              href="tel:+94757890053"
+              className="flex items-center gap-1.5 text-white font-bold text-sm"
+            >
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.27 1.11l-2.2 2.2z" />
+              </svg>
+              <span>+94 75 789 0053</span>
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               type="button"
@@ -81,7 +100,7 @@ export default function Navbar() {
             {navItems.map((item) => {
               const isActive = activeTab === item.name;
               return (
-                <Link
+                <a
                   key={item.name}
                   href={item.href}
                   onClick={() => {
@@ -95,7 +114,7 @@ export default function Navbar() {
                   }`}
                 >
                   {item.name}
-                </Link>
+                </a>
               );
             })}
           </div>
