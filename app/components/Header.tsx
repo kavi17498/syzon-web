@@ -7,9 +7,9 @@ export default function Header() {
   return (
     <header className="w-full bg-white border-b border-gray-100 py-3 px-4 sm:px-6 lg:px-12 shadow-sm">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        {/* Logo Section */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative h-14 sm:h-16 w-48 sm:w-56 transition-transform duration-200 group-hover:scale-[1.02]">
+        {/* Logo & Brand Name Section */}
+        <Link href="/" className="flex items-center gap-3 sm:gap-4 group">
+          <div className="relative h-12 sm:h-16 w-14 sm:w-20 shrink-0 transition-transform duration-200 group-hover:scale-[1.03]">
             <Image
               src="/logo.png"
               alt="Syzon Cab Service Logo"
@@ -18,6 +18,12 @@ export default function Header() {
               priority
             />
           </div>
+          <span
+            className="font-jacques text-2xl sm:text-3xl lg:text-4xl font-normal tracking-wide whitespace-nowrap"
+            style={{ color: "#E1BE22" }}
+          >
+            Syzon Cab Service
+          </span>
         </Link>
 
         {/* Info Items & CTA */}
