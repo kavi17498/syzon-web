@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "Our Rates", href: "#rates" },
+    { name: "Our Vehicles", href: "#vehicles" },
     { name: "About Us", href: "#about" },
     { name: "Contact Us", href: "#contact" },
     { name: "Book Now", href: "#booking-form" },

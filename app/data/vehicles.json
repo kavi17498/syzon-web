@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dolphin High Roof",
+    "passengers": 14,
+    "image": "/vehicles/dolphin.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Toyota KDH - Flat Roof",
+    "passengers": 9,
+    "image": "/vehicles/kdhflat.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Toyota KDH - High Roof",
+    "passengers": 8,
+    "image": "/vehicles/highroof.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mini Car - Wagon R",
+    "passengers": 4,
+    "image": "/vehicles/wagonr.jpg"
+  },{
+    "id": 5,
+    "name": "Micro - Alto",
+    "passengers": 4,
+    "image": "/vehicles/alto.jpg"
+  },
+  {
+    "id": 6,
+    "name": "SUV",
+    "passengers": 4,
+    "image": "/vehicles/SUV.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sedan - Prius / Axio / Premio",
+    "passengers": 4,
+    "image": "/vehicles/prius.jpg"
+  }
+
+]
