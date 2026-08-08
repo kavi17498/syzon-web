@@ -47,6 +47,9 @@ export default function Home() {
                 image={vehicle.image}
                 name={vehicle.name}
                 passengers={vehicle.passengers}
+                bags={vehicle.bags}
+                ac={vehicle.ac}
+                description={vehicle.description}
               />
             ))}
           </div>

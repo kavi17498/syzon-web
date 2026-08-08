@@ -18,7 +18,7 @@ export default function Header() {
               priority
             />
           </div>
-          <span className="font-jacques text-2xl sm:text-3xl lg:text-4xl font-normal tracking-wide whitespace-nowrap text-primary">
+          <span className="font-sekuya text-md sm:text-base lg:text-base font-normal tracking-wide whitespace-nowrap text-primary">
             Syzon Cab Service
           </span>
         </Link>

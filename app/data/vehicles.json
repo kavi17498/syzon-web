@@ -3,42 +3,63 @@
     "id": 1,
     "name": "Dolphin High Roof",
     "passengers": 14,
+    "bags": 8,
+    "ac": "Dual A/C",
+    "description": "Ideal for large tour groups, extended family vacations & long-distance islandwide excursions.",
     "image": "/vehicles/dolphin.jpg"
   },
   {
     "id": 2,
     "name": "Toyota KDH - Flat Roof",
     "passengers": 9,
+    "bags": 6,
+    "ac": "Dual A/C",
+    "description": "Perfect for medium group travel, corporate tours, and comfortable group airport transfers.",
     "image": "/vehicles/kdhflat.jpg"
   },
   {
     "id": 3,
     "name": "Toyota KDH - High Roof",
     "passengers": 8,
+    "bags": 7,
+    "ac": "Dual A/C",
+    "description": "Spacious luxury van fit for VIP tour parties, hill country trips with extra luggage space.",
     "image": "/vehicles/highroof.jpg"
   },
   {
     "id": 4,
     "name": "Mini Car - Wagon R",
     "passengers": 4,
+    "bags": 2,
+    "ac": "Full A/C",
+    "description": "Great for budget-friendly city tours, quick pickups, and light-luggage travel.",
     "image": "/vehicles/wagonr.jpg"
-  },{
+  },
+  {
     "id": 5,
     "name": "Micro - Alto",
-    "passengers": 4,
+    "passengers": 3,
+    "bags": 2,
+    "ac": "Full A/C",
+    "description": "Economical choice for short solo or couple trips and quick city rides.",
     "image": "/vehicles/alto.jpg"
   },
   {
     "id": 6,
     "name": "SUV",
     "passengers": 4,
+    "bags": 4,
+    "ac": "Full A/C",
+    "description": "Premium 4WD comfort best for hill country journeys, scenic round trips & luxury travel.",
     "image": "/vehicles/SUV.jpg"
   },
   {
     "id": 7,
     "name": "Sedan - Prius / Axio / Premio",
     "passengers": 4,
+    "bags": 3,
+    "ac": "Full A/C",
+    "description": "Smooth & stylish ride ideal for airport drop-offs/pickups, executive rides, and family day trips.",
     "image": "/vehicles/prius.jpg"
   }
-
 ]
