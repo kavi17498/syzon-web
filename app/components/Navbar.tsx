@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full bg-[#dfad15] shadow-md sticky top-0 z-50">
+    <nav className="w-full bg-[#2563eb] shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex items-center justify-between h-14">
           {/* Desktop Navigation links */}
@@ -30,8 +30,8 @@ export default function Navbar() {
                   onClick={() => setActiveTab(item.name)}
                   className={`flex items-center px-6 h-full font-bold text-sm sm:text-base transition-colors duration-150 ${
                     isActive
-                      ? "bg-[#9c7502] text-white shadow-inner"
-                      : "text-white hover:bg-[#c4980f]"
+                      ? "bg-[#1e40af] text-white shadow-inner"
+                      : "text-white hover:bg-[#1d4ed8]"
                   }`}
                 >
                   {item.name}
@@ -46,7 +46,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               type="button"
-              className="text-white p-2 rounded-md hover:bg-[#c4980f] focus:outline-none"
+              className="text-white p-2 rounded-md hover:bg-[#1d4ed8] focus:outline-none"
               aria-label="Toggle Navigation Menu"
             >
               <svg
@@ -77,7 +77,7 @@ export default function Navbar() {
 
         {/* Mobile Navigation Drawer */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-2 border-t border-[#c4980f]/50 space-y-1">
+          <div className="md:hidden py-2 border-t border-[#1d4ed8]/50 space-y-1">
             {navItems.map((item) => {
               const isActive = activeTab === item.name;
               return (
@@ -90,8 +90,8 @@ export default function Navbar() {
                   }}
                   className={`block px-4 py-2.5 rounded-md font-bold text-base transition-colors ${
                     isActive
-                      ? "bg-[#9c7502] text-white"
-                      : "text-white hover:bg-[#c4980f]"
+                      ? "bg-[#1e40af] text-white"
+                      : "text-white hover:bg-[#1d4ed8]"
                   }`}
                 >
                   {item.name}

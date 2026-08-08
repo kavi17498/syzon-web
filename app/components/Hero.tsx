@@ -30,12 +30,12 @@ export default function Hero() {
 
           {/* Right side optional text highlight / promo badge */}
           <div className="hidden lg:flex flex-col items-end justify-center self-center text-white text-right space-y-3 drop-shadow-lg">
-            <span className="bg-[#dfad15]/90 text-white text-sm font-bold uppercase tracking-wider px-4 py-1.5 rounded-full shadow-md backdrop-blur-sm">
+            <span className="bg-[#2563eb]/90 text-white text-sm font-bold uppercase tracking-wider px-4 py-1.5 rounded-full shadow-md backdrop-blur-sm">
               24/7 Islandwide Taxi Service
             </span>
             <h1 className="text-3xl xl:text-4xl font-extrabold leading-tight text-white drop-shadow-md">
               Reliable, Comfortable & Safe <br />
-              <span className="text-[#fcd34d]">Rides Across Sri Lanka</span>
+              <span className="text-[#60a5fa]">Rides Across Sri Lanka</span>
             </h1>
           </div>
         </div>

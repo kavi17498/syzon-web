@@ -7,7 +7,7 @@ import vehicles from "./data/vehicles.json";
 export default function Home() {
    
   return (
-    <div className="min-h-screen flex flex-col bg-white text-gray-900 font-sans selection:bg-[#dfad15] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-white text-gray-900 font-sans selection:bg-[#2563eb] selection:text-white">
       {/* Top Header with Logo & Key Selling Points */}
       <Header />
 
@@ -31,7 +31,7 @@ export default function Home() {
               Our Vehicles
             </h2>
 
-            <div className="w-20 h-1 bg-[#9c7502] mx-auto mt-4 mb-5"></div>
+            <div className="w-20 h-1 bg-[#2563eb] mx-auto mt-4 mb-5"></div>
 
             <p className="text-gray-600 max-w-2xl mx-auto">
               Choose the perfect vehicle for your journey.
