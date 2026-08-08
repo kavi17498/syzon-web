@@ -18,10 +18,7 @@ export default function Header() {
               priority
             />
           </div>
-          <span
-            className="font-jacques text-2xl sm:text-3xl lg:text-4xl font-normal tracking-wide whitespace-nowrap"
-            style={{ color: "#2563eb" }}
-          >
+          <span className="font-jacques text-2xl sm:text-3xl lg:text-4xl font-normal tracking-wide whitespace-nowrap text-primary">
             Syzon Cab Service
           </span>
         </Link>
@@ -72,7 +69,7 @@ export default function Header() {
           <div className="ml-2">
             <a
               href="#booking-form"
-              className="inline-block bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-bold text-sm sm:text-base px-6 py-2.5 rounded-xl shadow-md transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0"
+              className="inline-block bg-primary hover:bg-primary-hover text-white font-bold text-sm sm:text-base px-6 py-2.5 rounded-xl shadow-md transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0"
             >
               Book Now
             </a>

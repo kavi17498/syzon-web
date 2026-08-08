@@ -57,7 +57,7 @@ export default function VehicleCard({
         {/* Book Button */}
         <Link
           href="#booking-form"
-          className="block w-full text-center bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-bold py-3 transition-colors duration-150"
+          className="block w-full text-center bg-primary hover:bg-primary-hover text-white font-bold py-3 transition-colors duration-150"
         >
           Book Now
         </Link>

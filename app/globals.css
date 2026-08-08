@@ -4,6 +4,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Central Theme Color: Change this single variable to change the website theme! */
+  --primary: #1e40af;
+  --primary-dark: color-mix(in srgb, var(--primary) 70%, black);
+  --primary-hover: color-mix(in srgb, var(--primary) 80%, black);
+  --primary-light: color-mix(in srgb, var(--primary) 45%, white);
 }
 
 @theme inline {
@@ -12,6 +18,11 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-jacques: 'Jacques Francois', serif;
+
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
 }
 
 .font-jacques {
